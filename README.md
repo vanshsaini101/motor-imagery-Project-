@@ -22,11 +22,12 @@ The goal of this project is to classify 4 different motor imagery tasks based on
 ## 📂 Repository Structure
 
 ```
-├── 01_preprocess_eeg.m          # Step 1: Data loading & cleaning
-├── 02_feature_extraction.m      # Step 2: Feature generation & selection
-├── 03_train_classifiers.m       # Step 3: Training ML & DL models
-├── 04_evaluate_and_optimize.m   # Step 4: Final evaluation & improvements
-└── README.md                    # Project documentation
+├── src/
+├──     01_preprocess_eeg.m          # Step 1: Data loading & cleaning
+├──     02_feature_extraction.m      # Step 2: Feature generation & selection
+├──     03_train_classifiers.m       # Step 3: Training ML & DL models
+├──     04_evaluate_and_optimize.m   # Step 4: Final evaluation & improvements
+└── README.md                        # Project documentation
 ```
 
 ## 📊 Results
